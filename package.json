@@ -1,0 +1,24 @@
+{
+  "name": "async-retry-fn",
+  "version": "1.0.0",
+  "description": "Wraps any async function with configurable retry logic, backoff, and jitter",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "keywords": ["retry", "async", "backoff", "jitter", "promise"],
+  "license": "MIT"
+}
