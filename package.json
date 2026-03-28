@@ -20,5 +20,11 @@
     "prepublishOnly": "npm test && npm run build"
   },
   "keywords": ["retry", "async", "backoff", "jitter", "promise"],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  }
 }
