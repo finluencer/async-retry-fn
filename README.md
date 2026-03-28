@@ -62,7 +62,7 @@ onExhausted: (err, totalAttempts) => {
 
 ## License
 
-MIT — see [LICENSE](LICENSE)
+MIT — see this [LICENSE](LICENSE)
 
 ---
 
